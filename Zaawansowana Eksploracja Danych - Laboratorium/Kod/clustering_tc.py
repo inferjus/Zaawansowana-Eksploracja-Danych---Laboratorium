@@ -99,5 +99,5 @@ def find_optimal_clusters(X_D_prime, min_percentage=0.15):
             best_dunn = dunn
             best_labels = labels_adj.copy()
 
-    print(f"  [TC] Znaleziono optymalna liczbe Klastrew Typologii: {len(np.unique(best_labels))}")
+    print(f"  [TC] Znaleziono optymalna liczbe Klastrow Typologii: {len(np.unique(best_labels))}")
     return best_labels

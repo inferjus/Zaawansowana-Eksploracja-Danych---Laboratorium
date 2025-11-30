@@ -53,7 +53,7 @@ if __name__ == "__main__":
 ###
 
 ###3. Konfiguracja M2 (methodology_m2.py) ---
-    #mapa ID uzytkownikow i odpowiadajacych im klastrom wewnetrznym
+    #mapa ID uzytkownikow i odpowiadajacych im klastrow typologii
     tc_label_map = {user_id: tc_label for user_id, tc_label in zip(user_id_map, best_tc_labels)}
     
     #wektor z obserwacjami i przypisanymi do nich klastrami
